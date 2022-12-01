@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Evaluación de pruebas',
+    descripcionCurso:
+      'Se abordarán tanto los temas relacionados con pruebas, sus criterios de aceptación y finalización, como algunos conceptos claves, por ejemplo, tipos y clasificación. Dada su importancia en el desarrollo de software, el componente permitirá un entendimiento global de cómo poder manejar la temática en un proyecto de software. Igualmente, se enfatiza en la necesidad de que, antes de lanzar un producto, se deben cumplir estándares de calidad que garanticen un correcto funcionamiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -32,30 +41,15 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alcance de pruebas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación de programas mediante pruebas',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +95,105 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Alcance de pruebas',
+      referencia:
+        'Quality-Stream. (2021). <em>Tipos y Niveles de Pruebas de Software</em> [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=hSxXuRxA9mo',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Alcance de pruebas',
+      referencia:
+        'Quality-Stream. (2021). <em>Cómo crear un Plan de Pruebas de Software – Norma ISO 29119</em> [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0anZpU5W0Z8',
+    },
+    {
+      tema: 'Evaluación de programas mediante pruebas',
+      referencia:
+        'OpenWebinars. (2019). <em>Tipos de Pruebas de Software</em> [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=dJTcfuSMwFE',
+    },
+    {
+      tema: 'Evaluación de programas mediante pruebas',
+      referencia:
+        'Quality-Stream. (2021). <em>Cómo reportar defectos – Paso a paso</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=kYeiqPbG5Vg',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Block</em>',
+      significado:
+        'indica que los elementos estarán organizados en una línea vertical uno abajo del otro. De esa forma los interpreta el navegador.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>CSS</em>',
+      significado:
+        'siglas en inglés que, en español, significan hoja de estilos en cascada. Complementa las páginas web dando estilo y forma.',
+    },
+    {
+      termino: '<em>Inline</em>',
+      significado:
+        'indica que los elementos estarán organizados en una línea horizontal uno al lado del otro. De esa forma los interpreta el navegador.',
+    },
+    {
+      termino: 'Parámetro',
+      significado: 'especifica el tipo de dato que recibirá un método.',
+    },
+    {
+      termino: 'Pruebas de aceptación',
+      significado:
+        'se enfocan en la aceptación de los criterios previstos en un contrato de desarrollo de software acordado, previamente, entre la empresa de software y el cliente.',
+    },
+    {
+      termino: 'Pruebas de componentes',
+      significado:
+        'tienen por objeto localizar defectos y comprobar el funcionamiento de módulos software, programas, objetos, clases, etc., que puedan probarse por separado.',
+    },
+    {
+      termino: 'Pruebas de integración',
+      significado:
+        'se encargan de probar las interfaces entre los componentes o módulos.',
+    },
+    {
+      termino: 'Prueba de <em>software</em>',
+      significado:
+        'se refiere al proceso de evaluar y verificar que un producto, o aplicación de software, realiza lo que se supone que debe hacer.',
+    },
+    {
+      termino: '<em>Responsive</em>',
+      significado:
+        'propiedad que indica que la página se adapta a todas las pantallas de los diferentes dispositivos donde se ejecute.',
+    },
+    {
+      termino: '<em>Testers</em>',
+      significado: 'encargados de probar los <em>software</em>.',
     },
   ],
   referencias: [
     {
       referencia: '',
       link: '',
+    },
+    {
+      referencia:
+        'International Standard. (2015). ISO/IEC/IEEE24765:2010 Systems and software engineering – Vocabulary.',
+      link: 'https://www.cse.msu.edu/~cse435/Handouts/Standards/IEEE24765.pdf',
+    },
+
+    {
+      referencia: 'Manrique, J. (s.f.). Pruebas de Software. Cibertec.',
+      link: 'https://www.academia.edu/8813345/Pruebas_de_Software',
+    },
+
+    {
+      referencia:
+        'Zuluaga, L. & Bedoya, Y. (2018). Desarrollo de un manual sobre pruebas de software durante el ciclo de desarrollo e implementación [Tesis de pregrado, Universidad Tecnológica de Pereira]. Repositorio Institucional UTP.',
+      link:
+        'https://repositorio.utp.edu.co/server/api/core/bitstreams/0e705442-9ab0-41a3-aa02-80c241bbf9a3/content',
     },
   ],
   creditos: {

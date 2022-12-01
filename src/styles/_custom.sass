@@ -2,13 +2,27 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: -3%
+    right: 59%
+    width: 10% !important
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 13%
+    right: 24%
+    width: 12% !important
+  &-3
+    animation: zoom-in-zoom-out 5.8s linear infinite
+    position: absolute
+    top: 43%
+    right: 18% 
+    width: 10% !important
+  &-4
+    animation: zoom-in-zoom-out 3.8s linear infinite
+    position: absolute
+    top: 31%
+    right: 71% 
+    width: 13% !important
 
 
 @keyframes float1
@@ -17,3 +31,167 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes zoom-in-zoom-out
+  0% 
+    transform: scale(1, 1);
+  
+  50% 
+    transform: scale(1.5, 1.5);
+  
+  100% 
+    transform: scale(1, 1);
+
+.banner-principal__info
+  padding-left: 6rem!important;
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: white
+
+.fondo-1
+  background-image: url('../assets/curso/temas/tema_1/img_1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-inline: -3.2rem 
+  .acordion
+    .acordion__header
+      background-color: #E8E8E8
+    .tarjeta--azul
+      background-color: transparent
+    .acordion__activo
+      background-color: #FFF5D5!important
+      .acordion__header
+        background-color: #FFF5D5!important
+  .h1, .titulo-principal__numero span, .h2, .h3, .h4, .h5, .h6
+    color: #21CBAE
+
+.fondo-2
+  background-image: url('../assets/curso/temas/tema_2/img_14.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-inline: -3.2rem 
+  background-position: right
+
+.fondo-3
+  background-image: url('../assets/curso/temas/tema_2/img_16.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-inline: -3.2rem 
+
+.fondo-4
+  background-image: url('../assets/curso/temas/tema_2/img_18.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-inline: -3.2rem 
+  .acordion
+    .tarjeta--azul
+      background-color: #F6F6F6
+    .acordion__activo
+      background-color: #EEDCA5!important
+  .h1, .titulo-principal__numero span, .h2, .h3, .h4, .h5, .h6
+    color: #21CBAE
+
+.fondo-5
+  background-image: url('../assets/curso/temas/tema_2/img_23.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+.slyder-f__btn 
+  color: #EF3C79
+
+.horizontal-scroll
+  align-items: stretch!important
+
+.lista-ul--color li > i:first-of-type 
+  color: #EF3C79
+
+.text-left
+  text-align: left
+  
+
+
+
+.tarjeta.color-acento-botones * 
+  color: #12263F
+
+.cajon.color-primario 
+  background-color: #f0e0e6;
+
+.bg_1
+  background-color: #E8F6F4
+
+.bg_2
+  background-color: #21CBAE
+  .lista-ul__vineta:before
+    color: #EF3C79 !important 
+    font-size: 25px
+    line-height: 3px
+
+.bg_3
+  background-color: #0B5999;
+  padding: 5px
+
+.bg_4
+  background-color: #E9E9E9
+  margin-inline: -3.2rem 
+
+.bg_5
+  background-color: #FFFFFF
+  color: #000000 !important
+
+.bg_6
+  background-color: #E8F7F3
+  margin-inline: -3.2rem 
+
+.bg_7
+  background-color: #C8F2EB
+
+.bg_8
+  @media only screen and (max-width: 992px)
+    .m-left
+      left: 0 !important  
+
+  .m-left
+    left: 50% !important
+
+  .bloque-texto-g
+    justify-content: flex-start !important
+
+  .bloque-g-text
+    justify-content: flex-end !important  
+
+  .bloque-texto-g__texto 
+    width: 55%;
+    .lista-ul__vineta:before
+      color: #EF3C79 !important 
+      font-size: 35px
+
+.mgr_left
+  margin-left: -6.5rem;
+  margin-top: 8px;
+
+.mgr_left-1
+  margin-left: -6.5rem;
+  margin-top: 46px;
+
+.bg_3  
+  span, li
+    color: white;
+
+
+.img-a 
+  display: block 
+  margin: auto   
+  width: auto
+  height: auto
+
+.lista-ul__vineta:before
+  font-size: 25px
+
+.img-b
+  height: 298px;
+  width: 352px;
+
+.img-c
+  height: 242px;
+  width: 302px;
