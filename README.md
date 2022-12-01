@@ -1,8 +1,8 @@
-# **sEvaluación de pruebas**
+# **Evaluación de pruebas**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF20_228125_EVALUACION_PRUEBAS/#/](https://sena-externos.github.io/CF20_228125_EVALUACION_PRUEBAS/#/)
 
 #
 
