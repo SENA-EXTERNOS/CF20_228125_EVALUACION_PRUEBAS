@@ -159,7 +159,7 @@ export default {
         'se encargan de probar las interfaces entre los componentes o módulos.',
     },
     {
-      termino: 'Prueba de <em>software</em>',
+      termino: 'Pruebas de <em>software</em>',
       significado:
         'se refiere al proceso de evaluar y verificar que un producto, o aplicación de software, realiza lo que se supone que debe hacer.',
     },

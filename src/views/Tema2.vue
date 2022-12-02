@@ -138,7 +138,7 @@
           .h5.mb-2 Las pruebas exhaustivas no existen
           p.mb-0 Probar todo el aplicativo de extremo a extremo, con todas las entradas de datos y condiciones, es algo imposible. Así, en lugar de tratar de conseguir ese tipo de pruebas, se debe realizar un análisis de los riesgos para establecer prioridades y tomar decisiones adecuadas en la utilización del talento humano y de los recursos, centralizando los esfuerzos en las pruebas.
 
-        .tarjeta.color-acento-contenido.p-3(x="60%" y="55%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="59%" y="55%" numero="+")
           .h5.mb-2 Pruebas tempranas
           p.mb-0 Identificar los defectos en etapas tempranas ahorrará a la empresa todo tipo de recursos. Cuanto más rápido se identifiquen los defectos, más aumentará la eficiencia. 
 
@@ -220,7 +220,7 @@
         .tarjeta.color-acento-contenido.p-3(x="44%" y="61%" numero="+")
           .h5.mb-2 Pruebas no funcionales
           p.mb-0 Se refiere a las pruebas necesarias para medir las características de los sistemas y <em>software</em>s que puedan cuantificarse según una escala variable. Se debe tener en cuenta que se orientan hacia el comportamiento externo del <em>software</em> y, en la mayoría de los casos, utilizan técnicas de diseño de pruebas de caja negra.
-        .tarjeta.color-acento-contenido.p-3(x="77%" y="61%" numero="+")
+        .tarjeta.color-acento-contenido.p-3(x="76%" y="61%" numero="+")
           .h5.mb-2 Pruebas estructurales
           p Pueden realizarse en todos los niveles de prueba. Son las más idóneas, después de las técnicas basadas en la especificación, para medir la exhaustividad de las pruebas a través de la evaluación de la cobertura de un tipo de estructura. 
           p.mb-0 Para todo proceso de pruebas, se debe tener clara la diferencia al clasificar los tipos de pruebas, esto contribuye a un análisis sólido del plan de pruebas y a estructurar los casos de pruebas y la creación de la respectiva matriz. Así mismo, se tributa, además, a la eficiencia en el proceso de calidad del producto <em>software</em>.
@@ -474,8 +474,8 @@
                   span.lista-ul__vineta
                   | La cobertura de la prueba debe alcanzarse en un 95%.
                 li 
-                  p.lista-ul__vineta
-                  | La tasa de aprobación del caso de prueba debe ser del 95 %. Esto se puede calcular por fórmula: (No total de TC aprobadas / Número total de TC) * 100.
+                  span.lista-ul__vineta
+                  p La tasa de aprobación del caso de prueba debe ser del 95 %. Esto se puede calcular por fórmula: <b>(No total de TC aprobadas / Número total de TC) * 100.</b>
                 li 
                   span.lista-ul__vineta
                   | Se pasan todos los casos de prueba críticos.
