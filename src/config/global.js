@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Evaluación de pruebas',
     descripcionCurso:
-      'Se abordarán tanto los temas relacionados con pruebas, sus criterios de aceptación y finalización, como algunos conceptos claves, por ejemplo, tipos y clasificación. Dada su importancia en el desarrollo de software, el componente permitirá un entendimiento global de cómo poder manejar la temática en un proyecto de software. Igualmente, se enfatiza en la necesidad de que, antes de lanzar un producto, se deben cumplir estándares de calidad que garanticen un correcto funcionamiento.',
+      'Se abordarán tanto los temas relacionados con pruebas, sus criterios de aceptación y finalización, como algunos conceptos claves, por ejemplo, tipos y clasificación. Dada su importancia en el desarrollo de <em>software</em>, el componente permitirá un entendimiento global de cómo poder manejar la temática en un proyecto de <em>software</em>. Igualmente, se enfatiza en la necesidad de que, antes de lanzar un producto, se deben cumplir estándares de calidad que garanticen un correcto funcionamiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -146,12 +146,12 @@ export default {
     {
       termino: 'Pruebas de aceptación',
       significado:
-        'se enfocan en la aceptación de los criterios previstos en un contrato de desarrollo de software acordado, previamente, entre la empresa de software y el cliente.',
+        'se enfocan en la aceptación de los criterios previstos en un contrato de desarrollo de <em>software</em> acordado, previamente, entre la empresa de <em>software</em> y el cliente.',
     },
     {
       termino: 'Pruebas de componentes',
       significado:
-        'tienen por objeto localizar defectos y comprobar el funcionamiento de módulos software, programas, objetos, clases, etc., que puedan probarse por separado.',
+        'tienen por objeto localizar defectos y comprobar el funcionamiento de módulos <em>software</em>, programas, objetos, clases, etc., que puedan probarse por separado.',
     },
     {
       termino: 'Pruebas de integración',
@@ -161,7 +161,7 @@ export default {
     {
       termino: 'Pruebas de <em>software</em>',
       significado:
-        'se refiere al proceso de evaluar y verificar que un producto, o aplicación de software, realiza lo que se supone que debe hacer.',
+        'se refiere al proceso de evaluar y verificar que un producto, o aplicación de <em>software</em>, realiza lo que se supone que debe hacer.',
     },
     {
       termino: '<em>Responsive</em>',
@@ -180,18 +180,19 @@ export default {
     },
     {
       referencia:
-        'International Standard. (2015). ISO/IEC/IEEE24765:2010 Systems and software engineering – Vocabulary.',
+        'International Standard. (2015). <em>ISO/IEC/IEEE24765:2010 Systems and software engineering – Vocabulary</em>.',
       link: 'https://www.cse.msu.edu/~cse435/Handouts/Standards/IEEE24765.pdf',
     },
 
     {
-      referencia: 'Manrique, J. (s.f.). Pruebas de Software. Cibertec.',
+      referencia:
+        'Manrique, J. (s.f.). <em>Pruebas de Software</em>. Cibertec.',
       link: 'https://www.academia.edu/8813345/Pruebas_de_Software',
     },
 
     {
       referencia:
-        'Zuluaga, L. & Bedoya, Y. (2018). Desarrollo de un manual sobre pruebas de software durante el ciclo de desarrollo e implementación [Tesis de pregrado, Universidad Tecnológica de Pereira]. Repositorio Institucional UTP.',
+        'Zuluaga, L. & Bedoya, Y. (2018). <em>Desarrollo de un manual sobre pruebas de software durante el ciclo de desarrollo e implementación</em> [Tesis de pregrado, Universidad Tecnológica de Pereira]. Repositorio Institucional UTP.',
       link:
         'https://repositorio.utp.edu.co/server/api/core/bitstreams/0e705442-9ab0-41a3-aa02-80c241bbf9a3/content',
     },
