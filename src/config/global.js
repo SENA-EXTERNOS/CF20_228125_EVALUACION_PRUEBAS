@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Evaluación de pruebas',
     descripcionCurso:
-      'Se abordarán tanto los temas relacionados con pruebas, sus criterios de aceptación y finalización, como algunos conceptos claves, por ejemplo, tipos y clasificación. Dada su importancia en el desarrollo de <em>software</em>, el componente permitirá un entendimiento global de cómo poder manejar la temática en un proyecto de <em>software</em>. Igualmente, se enfatiza en la necesidad de que, antes de lanzar un producto, se deben cumplir estándares de calidad que garanticen un correcto funcionamiento.',
+      'En este componente formativo se tratarán los temas que permitirán tener un entendimiento global de cómo se puede manejar la evaluación de pruebas en un proyecto de <em>software</em>. Este tema es importante y clave en el desarrollo de <em>software</em>, debido a que antes de lanzar un producto, se deben cumplir unos estándares de calidad para su buen funcionamiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
