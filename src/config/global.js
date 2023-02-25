@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Evaluación de pruebas',
     descripcionCurso:
-      'En este componente formativo se tratarán los temas que permitirán tener un entendimiento global de cómo se puede manejar la evaluación de pruebas en un proyecto de <em>software</em>. Este tema es importante y clave en el desarrollo de <em>software</em>, debido a que antes de lanzar un producto, se deben cumplir unos estándares de calidad para su buen funcionamiento.',
+      'En este componente, se abordan temas relacionados con pruebas, sus criterios de aceptación y finalización, como también algunos conceptos claves como, por ejemplo, tipos y clasificación. Dada su importancia en el desarrollo de <i>software,</i> el componente permitirá un entendimiento global de cómo poder manejar la temática en un proyecto de <i>software.</i> Igualmente, se enfatiza en la necesidad que, antes de lanzar un producto, se deben cumplir estándares de calidad que garanticen un correcto funcionamiento.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -97,30 +97,30 @@ export default {
     {
       tema: 'Alcance de pruebas',
       referencia:
-        'Quality-Stream. (2021). <em>Tipos y Niveles de Pruebas de Software</em> [Video]. YouTube. ',
+        'Quality-Stream. (2021). <i>Tipos y Niveles de Pruebas de Software</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hSxXuRxA9mo',
     },
     {
       tema: 'Alcance de pruebas',
       referencia:
-        'Quality-Stream. (2021). <em>Cómo crear un Plan de Pruebas de Software – Norma ISO 29119</em> [Video]. YouTube. ',
+        'Quality-Stream. (2021). <i>Cómo crear un Plan de Pruebas de Software - Norma ISO 29119</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=0anZpU5W0Z8',
     },
     {
       tema: 'Evaluación de programas mediante pruebas',
       referencia:
-        'OpenWebinars. (2019). <em>Tipos de Pruebas de Software</em> [Video]. YouTube. ',
+        'OpenWebinars. (2019). <i>Tipos de Pruebas de Software</i> [video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=dJTcfuSMwFE',
     },
     {
       tema: 'Evaluación de programas mediante pruebas',
       referencia:
-        'Quality-Stream. (2021). <em>Cómo reportar defectos – Paso a paso</em> [Video]. YouTube.',
+        'Quality-Stream. (2021). Cómo reportar defectos - Paso a paso [video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=kYeiqPbG5Vg',
+      link: 'https://www.youtube.com/watch?v=kYeiqPbG5Vg ',
     },
   ],
   glosario: [
@@ -174,10 +174,6 @@ export default {
     },
   ],
   referencias: [
-    {
-      referencia: '',
-      link: '',
-    },
     {
       referencia:
         'International Standard. (2015). <em>ISO/IEC/IEEE24765:2010 Systems and software engineering – Vocabulary</em>.',

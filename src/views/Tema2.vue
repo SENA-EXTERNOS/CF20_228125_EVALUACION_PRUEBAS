@@ -154,7 +154,7 @@
 
         .tarjeta.color-acento-contenido.p-3(x="50%" y="33%" numero="+")
           .h5.mb-2 Las pruebas demuestran la presencia de defectos
-          p.mb-0 Las pruebas son herramientas que permiten identificar la presencia de defectos, sin embargo, no garantizan que no se encuentren defectos ocultos en el <em>software</em>, y, el hecho que no se identifiquen, no es evidencia de que el <em>software</em> esté totalmente correcto.
+          p.mb-0 Las pruebas son herramientas que permiten identificar la presencia de deficiencias; sin embargo, no garantizan que no se encuentren imperfecciones ocultas en el #[i software], y, el hecho que no se identifiquen, no es evidencia que el #[i software] esté totalmente correcto.
 
         .tarjeta.color-acento-contenido.p-3(x="58%" y="40%" numero="+")
           .h5.mb-2 Las pruebas exhaustivas no existen
@@ -192,7 +192,7 @@
             div(titulo="Pruebas de componentes")
               p.mb-0 Tienen por objeto localizar defectos y comprobar el funcionamiento de módulos <em>software</em>, programas, objetos, clases, etc., que puedan probarse por separado, es decir, de aquellos elementos a los que pueda realizarse una comprobación independiente al resto del sistema en función del contexto. El diseño de casos de pruebas es requisito esencial de los componentes, del diseño de detalle en los casos de uso y del código del módulo o del componente.
             div(titulo="Pruebas de integración")
-              p Se encargan de probar las interfaces entre los componentes o módulos, por ejemplo, el componente de validación de usuario con el sistema operativo, el sistema de archivos en integración con el hardware, etc. En el diseño de casos de prueba, es el diseño de <em>software</em>, arquitectura, flujos de trabajo, casos de uso y se deben tener en cuenta los objetos de prueba típicos: 
+              p Se encargan de probar las interfaces entre los componentes o módulos; por ejemplo, el componente de validación de usuario con el sistema operativo, el sistema de archivos en integración con el #[i hardware,]  etc. En el diseño de casos de prueba, es el diseño de #[i software], arquitectura, flujos de trabajo, casos de uso y se deben tener en cuenta los objetos de prueba típicos:
 
               p.mb-0 1.  Base de datos de subsistemas.
               p.mb-0 2.  Infraestructura.
@@ -214,17 +214,17 @@
               p Se enfocan en la aceptación de los criterios previstos en un contrato de desarrollo de <em>software</em>, acordado entre la empresa de <em>software</em> y el cliente. 
 
             div(titulo="Pruebas de <em>backup</em>/restauración")
-              p Se incluye la recuperación de desastres, la gestión de usuarios, la tarea de mantenimiento, la carga de datos, las tareas de migración, las comprobaciones periódicas de vulnerabilidades de seguridad, las pruebas de aceptación contractual y normativa y las pruebas alfa y beta. Es importante, para aplicar el modelo V, tener claro, por parte de los probadores o tester, las definiciones de equivocación, defecto o falta y falla. 
+              p Se incluye la recuperación de desastres, la gestión de usuarios, la tarea de mantenimiento, la carga de datos, las tareas de migración, las comprobaciones periódicas de vulnerabilidades de seguridad, las pruebas de aceptación contractual y normativa y las pruebas alfa y beta. Es importante, para aplicar el modelo V, tener claro, por parte de los probadores o testers, las definiciones de equivocación, defecto o falta y falla.
 
-              p Siguiendo la norma ISO/ IEC/ IEEE 24765: 2010, estos conceptos se definen así: 
+              p Siguiendo la norma ISO/ IEC/ IEEE 24765: 2010, estos conceptos se definen así:
 
               ul.lista-ul.mb-0
                 li 
-                  span.lista-ul__vineta Equivocación <em>(mistake)</em>: acción del ser humano que produce un resultado incorrecto. 
+                  span.lista-ul__vineta Equivocación #[i (mistake)]: acción del ser humano que produce un resultado incorrecto.
                 li 
-                  span.lista-ul__vineta Defecto o falta <em>(fault)</em>: paso, proceso o definición de dato incorrecto en un programa de computadora. El resultado de una equivocación origina, potencialmente, una falla. 
+                  span.lista-ul__vineta Defecto o falta #[i (fault)]: paso, proceso o definición de dato incorrecto en un programa de computadora. El resultado de una equivocación origina, potencialmente, una falla.
                 li 
-                  span.lista-ul__vineta Falla <em>(failure)</em>: resultado incorrecto.
+                  span.lista-ul__vineta Falla #[i (failure)]: resultado incorrecto.
 
     .fondo-3.p-5.mb-5
       p Las pruebas tienen una clasificación. 
@@ -241,7 +241,7 @@
           p.mb-0 Pueden llevarse a cabo en todos los niveles de prueba, se basan en funciones, prestaciones e interoperabilidad con sistemas específicos. Es importante mencionar que se orientan, en el comportamiento externo de un producto o aplicativo <em>software</em>, a las pruebas de caja negra.
         .tarjeta.color-acento-contenido.p-3(x="44%" y="61%" numero="+")
           .h5.mb-2 Pruebas no funcionales
-          p.mb-0 Se refiere a las pruebas necesarias para medir las características de los sistemas y <em>software</em>s que puedan cuantificarse según una escala variable. Se debe tener en cuenta que se orientan hacia el comportamiento externo del <em>software</em> y, en la mayoría de los casos, utilizan técnicas de diseño de pruebas de caja negra.
+          p.mb-0 Se refiere a las pruebas necesarias para medir las características de los sistemas y #[i software] que puedan cuantificarse, según una escala variable. Se debe tener en cuenta que se orientan hacia el comportamiento externo del #[i software] y, en la mayoría de los casos, utilizan técnicas de diseño de pruebas de caja negra.
         .tarjeta.color-acento-contenido.p-3(x="76%" y="61%" numero="+")
           .h5.mb-2 Pruebas estructurales
           p Pueden realizarse en todos los niveles de prueba. Son las más idóneas, después de las técnicas basadas en la especificación, para medir la exhaustividad de las pruebas a través de la evaluación de la cobertura de un tipo de estructura. 
@@ -266,8 +266,8 @@
             img(src='@/assets/curso/temas/tema_2/img_22.png', alt='Texto que describa la imagen')
         
           .col-md-6
-            p En el desarrollo se detecta la falencia <em>showstopper/severity</em> 1 el día 1. Las pruebas se detienen por 3 días. De esta manera, ninguna otra prueba se puede ejecutar porque se encontró un error de gravedad 1, que debe solucionarse antes de continuar. 
-            p.mb-0 Después de perder 3 días, el bloqueador se resuelve y continúa con su ejecución. Al terminar la semana, se completan 20 escenarios de pruebas con hitos importantes encontrados en los defectos con alta prioridad.
+            p En el desarrollo, se detecta la falencia #[i showstopper/severity] 1 el día 1. Las pruebas se detienen por 3 días. De esta manera, ninguna otra prueba se puede ejecutar, porque se encontró un error de gravedad 1, que debe solucionarse antes de continuar.
+            p.mb-0 Después de perder 3 días, el bloqueador se resuelve y continúa con su ejecución. Al terminar la semana, se completan 20 escenarios de pruebas con hitos importantes, encontrados en los defectos con alta prioridad.
 
       .py-3.py-md-4.fondo-5(titulo="Semana 2")
         .row.justify-content-center
@@ -299,7 +299,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-primario(data-aos="fade-up")
-          h5 Figura 1. 
+          h5 Tabla 1. 
           | #[i Actividades de prueba y resultado final escenario 1]
         img(src='@/assets/curso/temas/tema_2/img_27.svg', alt='Texto que describa la imagen')
 
@@ -381,7 +381,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-primario(data-aos="fade-up")
-          h5 Figura 2. 
+          h5 Tabla 2
           | #[i Actividades de prueba y resultado final escenario 2]
         img(src='@/assets/curso/temas/tema_2/img_32.svg', alt='Texto que describa la imagen')    
 
@@ -466,7 +466,7 @@
                   | Se alcanza el recuento de defectos definidos o deseados.
                 li 
                   span.lista-ul__vineta
-                  p.mb-0 Todos los defectos o bloqueadores de <em>showstopper</em> están corregidos y ningún defecto conocido crítico, con ‘Severidad 1’ está en estado abierto.
+                  p.mb-0 Todos los defectos o bloqueadores de #[i showstopper] están corregidos y ningún defecto conocido crítico, con ‘Severidad 1’ está en estado abierto.
                 li 
                   span.lista-ul__vineta
                   | Todos los defectos de alta prioridad se identifican y solucionan.
@@ -487,22 +487,22 @@
               ul.lista-ul--color.mb-0
                 li 
                   span.lista-ul__vineta
-                  | La cobertura de la prueba debe alcanzarse en un 95%.
+                  | La cobertura de la prueba debe alcanzarse en un 95 %.
                 li 
                   span.lista-ul__vineta
-                  p La tasa de aprobación del caso de prueba debe ser del 95 %. Esto se puede calcular por fórmula: <b>(No total de TC aprobadas / Número total de TC) * 100.</b>
+                  p La tasa de aprobación del caso de prueba debe ser del 95 %. Esto se puede calcular por fórmula: #[strong (No total de TC aprobadas / Número total de TC) * 100.]
                 li 
                   span.lista-ul__vineta
                   | Se pasan todos los casos de prueba críticos.
                 li 
                   span.lista-ul__vineta
-                  | 5% de los casos de prueba pueden fallar, pero los casos de prueba fallidos son de baja prioridad.
+                  | 5 % de los casos de prueba pueden fallar, pero los casos de prueba fallidos son de baja prioridad.
                 li 
                   span.lista-ul__vineta
                   | Se logra una cobertura funcional completa.
                 li 
                   span.lista-ul__vineta
-                  | Todos los flujos principales, funcionales/comerciales, se ejecutan con éxito con varias entradas y funcionan bien.
+                  | Todos los flujos principales, funcionales/comerciales, se ejecutan con éxito usando varias entradas y funcionan bien.
             div(titulo="Plazos")
               p.mb-0 Se alcanza la fecha límite del proyecto o la fecha límite de finalización de la prueba.
         .col-lg-4
@@ -518,7 +518,7 @@
               p.mb-0 Todos los documentos de prueba, o entregables, se preparan, revisan y publican.
             div(titulo="Presupuesto")
               p.mb-0 El presupuesto de prueba completo está agotado.
-            div(titulo="Reuniones <em>Go/No Go</em>")
+            div(titulo="Reuniones Go/No Go")
               p.mb-0 Se ha realizado la reunión con las partes interesadas y se decide si el proyecto debe pasar a producción o no.
 
     
