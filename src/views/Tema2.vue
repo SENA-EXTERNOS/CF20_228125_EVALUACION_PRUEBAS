@@ -130,7 +130,7 @@
         .bloque-texto-g__img.m-left(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema_2/img_13.png')})`}"
         )
-        .bloque-texto-g__texto.p-4.text-small
+        .bloque-texto-g__texto.p-4
           p Las actividades de un proceso de pruebas deben cumplir con las siguientes características: planificar y controlar, seleccionar las condiciones de la prueba, diseñar y ejecutar casos de prueba, comprobar los resultados, evaluar los criterios de resultados, elaborar informes del proceso, y de la aplicación objeto de las pruebas, incluyendo bitácoras de experiencia. 
           <br>
           <br>
@@ -299,7 +299,8 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-primario(data-aos="fade-up")
-          h5 Tabla 1. 
+          h5 Tabla 1
+          br
           | #[i Actividades de prueba y resultado final escenario 1]
         img(src='@/assets/curso/temas/tema_2/img_27.svg', alt='Texto que describa la imagen')
 
@@ -382,6 +383,7 @@
       .col-lg-10
         .titulo-sexto.color-primario(data-aos="fade-up")
           h5 Tabla 2
+          br
           | #[i Actividades de prueba y resultado final escenario 2]
         img(src='@/assets/curso/temas/tema_2/img_32.svg', alt='Texto que describa la imagen')    
 
