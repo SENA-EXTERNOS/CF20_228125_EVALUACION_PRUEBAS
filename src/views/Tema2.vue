@@ -313,21 +313,21 @@
           .bg_3.p-4.mb-4.mgr_left.text-white
             p.mb-0 ¿Se debería finalizar o parar en este punto? En estos momentos, se han agotado varios factores como el tiempo de prueba, los informes de defectos y sus soluciones. Sin embargo, ¿es seguro terminar las pruebas? Realmente no, dadas las siguientes razones:
           ul.lista-ul--color.mb-0
-            li 
+            li.mb-1 
               span.lista-ul__vineta
-              | Los escenarios no se ejecutan por completo.
-            li 
+              span.mb-0 Los escenarios no se ejecutan por completo.
+            li.mb-1 
               span.lista-ul__vineta
-              | Pocos flujos que, ni siquiera, se prueban una vez.
-            li 
+              span.mb-0 Pocos flujos que, ni siquiera, se prueban una vez.
+            li.mb-1 
               span.lista-ul__vineta
-              | Todos los escenarios cubiertos se ejecutan una sola vez.
-            li 
+              span.mb-0 Todos los escenarios cubiertos se ejecutan una sola vez.
+            li.mb-1 
               span.lista-ul__vineta
-              p.mb-0 El <em>software</em> todavía tiene defectos.
-            li 
+              span.mb-0 El #[em software] todavía tiene defectos.
+            li.mb-1 
               span.lista-ul__vineta
-              | La regresión no está cubierta.
+              span.mb-0 La regresión no está cubierta.
 
     .row.justify-content-center.d-block.d-lg-none(data-aos="zoom-in-left")
       .col-lg-12
@@ -394,18 +394,17 @@
       .col-lg-7.d-flex.d-none.d-lg-block
         .bg_3.p-4
           .bg_5.p-4.mb-4.mgr_left
-            p.mb-0 
-              strong Aprendiz, en este momento se debe preguntar, ¿en este punto se debe detener la prueba? Se cubrieron todos los escenarios en su totalidad, incluso, se cubrieron algunos defectos abiertos. No obstante, realmente no es viable detenerse debido a las siguientes razones:
+            p.mb-0.fw-bold Aprendiz, en este momento se debe preguntar, ¿en este punto se debe detener la prueba? Se cubrieron todos los escenarios en su totalidad, incluso, se cubrieron algunos defectos abiertos. No obstante, realmente no es viable detenerse debido a las siguientes razones:
           ul.lista-ul--color.mb-0
             li 
               span.lista-ul__vineta
-              | Todos los escenarios se ejecutan solo una vez.
+              span.mb-0 Todos los escenarios se ejecutan solo una vez.
             li 
               span.lista-ul__vineta
-              p.mb-0.text-white El <em>software</em> todavía tiene muchos defectos importantes.
+              span.mb-0.text-white El #[em software] todavía tiene muchos defectos importantes.
             li 
               span.lista-ul__vineta
-              | La regresión no está cubierta.
+              span.mb-0 La regresión no está cubierta.
 
 
     .row.justify-content-center.d-block.d-lg-none(data-aos="zoom-in-left")
